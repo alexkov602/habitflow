@@ -1,0 +1,18 @@
+.{
+    .name = .habitflow,
+    .version = "0.0.0",
+
+    .fingerprint = 0x51f7db0a241742da, // Changing this has security and trust implications.
+
+    .minimum_zig_version = "0.14.1",
+
+    .dependencies = .{},
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
